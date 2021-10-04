@@ -1,0 +1,38 @@
+  554  cd ~/code/bootcamp/
+  555  ls
+  556  cd cu-virt-fin-pt-09-2021-u-b/
+  557  git pull
+  558  conda info --envs
+  559  conda activate base
+  560  conda list panda
+  560  conda list panda
+  561  conda list pandas
+  562  conda list jupiterlabs
+  563  conda deactivate
+  564  conda update conda
+  565  conda update anaconda
+  566  conda create -n dev python=3.7 anaconda
+  567  cd ../
+  568  ls
+  569  cd fintech/
+  570  git status
+  571  rm .DS_Store 
+  572  git add ./
+  573  git status
+  574  git commit -m "adding module 2 inital files"
+  575  cd module_2_challenge/
+  576  py app.py 
+  577  python app.py 
+  578  pip install fire
+  579  python app.py 
+  580  python app.py 
+  581  python app.py 
+  582  git status
+  583  git add .
+  584  git commit -m "adding save csv functionality"
+  585  vim .gitignore
+  586  git status
+  587  git add .
+  588  git commit --amend
+  589  git push origin head
+  600  history 50 > terminal_history.txt
